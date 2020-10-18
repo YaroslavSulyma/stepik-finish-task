@@ -23,3 +23,11 @@ class BasePageLocators():
 class BasketPageLocators():
     BUSKET_ITEM = (By.CSS_SELECTOR,"#basket_formset")
     MESSAGE_ABOUT_CLEAR_BUSKET = (By.CSS_SELECTOR,"#content_inner > p > a")
+
+class RegistrationPageLocators():
+    EMAIL_INPUT = (By.CSS_SELECTOR, "#id_registration-email")
+    PASSWORD_INPUT = (By.CSS_SELECTOR, "#id_registration-password1")
+    CONFIRM_PASSWORD_INPUT = (By.CSS_SELECTOR, "#id_registration-password2")
+    REGISTER_BUTTON = (By.CSS_SELECTOR, "#register_form > button")
+    MESSAGE_AFTER_REGISTRATION = (By.CSS_SELECTOR, ".alert-success.fade.in > div")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
